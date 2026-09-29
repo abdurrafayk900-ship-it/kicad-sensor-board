@@ -1,0 +1,28 @@
+refs,value,description,footprint,qty,lcsc,unit_cost_usd
+J1,USB-C 16P,USB 2.0 Type-C receptacle,Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12,1,C165948,0.25
+R1 R2,5.1k,CC pull-downs (sink identification),Resistor_SMD:R_0603_1608Metric,2,C23186,0.002
+F1,500mA,Resettable PTC fuse,Fuse:Fuse_1206_3216Metric,1,C70069,0.05
+U1,AMS1117-3.3,1A 3.3V LDO regulator,Package_TO_SOT_SMD:SOT-223-3_TabPin2,1,C6186,0.10
+C1,10uF,LDO input bulk cap,Capacitor_SMD:C_0805_2012Metric,1,C15850,0.01
+C2,22uF,LDO output bulk cap,Capacitor_SMD:C_0805_2012Metric,1,C45783,0.02
+C3 C4,100nF,Decoupling (ESP32 + CH340C),Capacitor_SMD:C_0603_1608Metric,2,C14663,0.002
+C5,1uF,EN RC delay,Capacitor_SMD:C_0603_1608Metric,1,C15849,0.003
+C6,100nF,ADC input filter,Capacitor_SMD:C_0603_1608Metric,1,C14663,0.002
+U2,ESP32-WROOM-32E,Wi-Fi/BT MCU module 4MB,RF_Module:ESP32-WROOM-32E,1,C701341,2.80
+U3,CH340C,USB-UART bridge (internal oscillator),Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,1,C84681,0.45
+Q1 Q2 Q3,MMBT3904,NPN transistor (auto-reset + buzzer driver),Package_TO_SOT_SMD:SOT-23,3,C20526,0.01
+R3 R4 R5 R6,10k,EN/IO0 pull-ups and transistor base resistors,Resistor_SMD:R_0603_1608Metric,4,C25804,0.002
+R7 R8,4.7k,I2C pull-ups,Resistor_SMD:R_0603_1608Metric,2,C23162,0.002
+R9,10k,MQ-135 divider top,Resistor_SMD:R_0603_1608Metric,1,C25804,0.002
+R10,20k,MQ-135 divider bottom,Resistor_SMD:R_0603_1608Metric,1,C4184,0.002
+R11 R12,220,Status LED current limit,Resistor_SMD:R_0603_1608Metric,2,C22962,0.002
+R13,1k,Power LED current limit,Resistor_SMD:R_0603_1608Metric,1,C21190,0.002
+R14,1k,Buzzer transistor base,Resistor_SMD:R_0603_1608Metric,1,C21190,0.002
+D1,Green,Status OK LED,LED_SMD:LED_0603_1608Metric,1,C72043,0.01
+D2,Red,Alert LED,LED_SMD:LED_0603_1608Metric,1,C2286,0.01
+D3,Blue,Power LED,LED_SMD:LED_0603_1608Metric,1,C72041,0.01
+D4,1N4148W,Buzzer flyback diode,Diode_SMD:D_SOD-123,1,C81598,0.01
+SW1 SW2,Tactile,BOOT and RESET buttons,Button_Switch_SMD:SW_SPST_TL3342,2,C318884,0.05
+J2 J3,JST-SH 4P,I2C sensor connectors (Qwiic/STEMMA QT compatible),Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,2,C160390,0.08
+J4,JST-PH 3P,MQ-135 connector,Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical,1,C131337,0.05
+BZ1,Buzzer 5V,Magnetic buzzer 12mm,Buzzer_Beeper:Buzzer_12x9.5RM7.6,1,C96093,0.20
